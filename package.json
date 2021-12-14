@@ -1,0 +1,34 @@
+{
+  "name": "timer_notify_bot",
+  "version": "1.0.0",
+  "description": "Send DMs at specified times",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "dev:watch": "ts-node-dev --respawn src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SATSUKI-UPDATE/timer_notify_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SATSUKI-UPDATE/timer_notify_bot/issues"
+  },
+  "homepage": "https://github.com/SATSUKI-UPDATE/timer_notify_bot#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "8.3.0",
+    "prettier": "2.5.1",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  }
+}
